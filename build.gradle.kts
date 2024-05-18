@@ -17,7 +17,7 @@ repositories {
 }
 
 sponge {
-    apiVersion("10.0.0-SNAPSHOT")
+    apiVersion("11.0.0-SNAPSHOT")
     license("CHANGEME")
     loader {
         name(PluginLoaders.JAVA_PLAIN)
@@ -42,7 +42,7 @@ sponge {
     }
 }
 
-val javaTarget = 17
+val javaTarget = 21
 java {
     sourceCompatibility = JavaVersion.toVersion(javaTarget)
     targetCompatibility = JavaVersion.toVersion(javaTarget)
