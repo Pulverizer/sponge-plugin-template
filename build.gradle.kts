@@ -2,7 +2,7 @@ import org.spongepowered.gradle.plugin.config.PluginLoaders
 import org.spongepowered.plugin.metadata.model.PluginDependency
 
 plugins {
-    val spongeGradleVersion = "2.2.0"
+    val spongeGradleVersion = "2.3.0"
 
     `java-library`
     id("org.spongepowered.gradle.plugin") version spongeGradleVersion
@@ -17,7 +17,7 @@ repositories {
 }
 
 sponge {
-    apiVersion("11.0.0-SNAPSHOT")
+    apiVersion("14.1.0-SNAPSHOT")
     license("CHANGEME")
     loader {
         name(PluginLoaders.JAVA_PLAIN)
