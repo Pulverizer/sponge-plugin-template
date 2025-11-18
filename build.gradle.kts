@@ -12,10 +12,6 @@ plugins {
 group = "org.spongepowered"
 version = "1.0-SNAPSHOT"
 
-repositories {
-    mavenCentral()
-}
-
 sponge {
     apiVersion("14.1.0-SNAPSHOT")
     license("CHANGEME")
